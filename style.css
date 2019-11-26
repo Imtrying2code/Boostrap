@@ -1,0 +1,34 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+input:valid {
+    background-color: green;
+    color: white;
+}
+
+input:invalid {
+    background-color: red;
+    color: white;
+}
+
+.activeTrue {
+    background-color: green;
+    color: white;
+    border: 3px dotted blue;
+    width: 600px;
+}
+
+.activeFalse {
+    background-color: red;
+    color: white;
+    border: 3px dotted blue;
+    width: 600px;
+}
+
+#groupTrue {
+    display: hidden;
+}
+
+#groupFalse {
+    display: hidden;
+}
